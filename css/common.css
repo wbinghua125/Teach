@@ -1,0 +1,95 @@
+@font-face {
+  font-family: 'iconfont';
+  src: url('//at.alicdn.com/t/font_8vkid79tmbanstt9.eot');
+  src: url('//at.alicdn.com/t/font_8vkid79tmbanstt9.eot?#iefix') format('embedded-opentype'), url('//at.alicdn.com/t/font_8vkid79tmbanstt9.woff') format('woff'), url('//at.alicdn.com/t/font_8vkid79tmbanstt9.ttf') format('truetype'), url('//at.alicdn.com/t/font_8vkid79tmbanstt9.svg#iconfont') format('svg');
+  
+  /* project id 251158 */
+}
+.icon {
+  font-family: iconfont;
+}
+body {
+  font-size: 0.34666667rem;
+  color: #535353;
+}
+header {
+  height: 1.17333333rem;
+  background: #43bf92;
+  line-height: 1.17333333rem;
+  text-align: center;
+  color: #ffffff;
+}
+header .head_left_btn {
+  left: 0.26666667rem;
+  font-size: 0.4rem;
+  position: absolute;
+}
+header .head_right_btn {
+  position: absolute;
+  top: 0;
+  font-size: 0.4rem;
+  right: 0.26666667rem;
+  display: block;
+}
+header .head_title {
+  width: 4rem;
+  font-size: 0.48rem;
+  margin: 0 auto;
+}
+.edge {
+  padding: 0 0.26666667rem;
+}
+.item_title {
+  line-height: 0.73333333rem;
+  font-size: 0.34666667rem;
+  background: #f1f1f1;
+}
+.btn {
+  width: 6.82666667rem;
+  height: 1.01333333rem;
+  line-height: 1.01333333rem;
+  font-size: 0.4rem;
+  color: #ffffff;
+  text-align: center;
+  background: #43bf92;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  border-top: 1px solid #979797;
+  width: 100%;
+}
+.footer ul {
+  display: flex;
+}
+.footer li {
+  width: 25%;
+  text-align: center;
+}
+.footer li a {
+  display: block;
+  background: url("../images/tree.png") no-repeat center 0.26666667rem;
+  background-size: 0.69333333rem;
+  padding-top: 1.06666667rem;
+  padding-bottom: 0.2rem;
+}
+.footer li:first-child a {
+  background-image: url("../images/tree.png");
+}
+.footer li:nth-child(2) a {
+  background-image: url("../images/house.png");
+}
+.footer li:nth-child(3) a {
+  background-image: url("../images/private.png");
+}
+.footer li:last-child a {
+  background-image: url("../images/my.png");
+}
+.footer .footer-on a {
+  color: #43bf92;
+}
+.footer a {
+  color: #656565;
+}

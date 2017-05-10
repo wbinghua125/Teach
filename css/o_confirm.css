@@ -1,0 +1,139 @@
+.info {
+  font-size: 0.4rem;
+  line-height: 0.82666667rem;
+  padding-top: 0.69333333rem;
+  padding-bottom: 0.53333333rem;
+  background: #ffffff;
+  border-bottom: 1px solid #a9a9a9;
+}
+.info_l {
+  display: block;
+  width: 0.66666667rem;
+  line-height: 1.46666667rem;
+  text-align: center;
+  color: #43bf92;
+  float: left;
+}
+.info_l b {
+  font-size: 0.53333333rem;
+}
+.info_c {
+  width: 7.6rem;
+  float: left;
+}
+.name > span:last-child {
+  margin-left: 2.46666667rem;
+}
+.info_r {
+  display: block;
+  width: 1.13333333rem;
+  line-height: 1.46666667rem;
+  text-align: center;
+  color: #43bf92;
+  float: left;
+}
+.goods {
+  height: 3.12rem;
+  padding-top: 0.13333333rem;
+  background: #ffffff;
+  position: relative;
+}
+.goods a {
+  color: #606060;
+  font-size: 0.34666667rem;
+}
+.goods p:first-child > span:first-child {
+  font-size: 0.4rem;
+  color: black;
+}
+.goods > div {
+  float: left;
+}
+.circle {
+  width: 0.4rem;
+  height: 0.4rem;
+  border-radius: 50%;
+  border: 1px solid #818181;
+  margin-top: 1.13333333rem;
+  margin-right: 0.26666667rem;
+}
+.goods .circle + div img {
+  width: 2.44rem;
+  height: 2.44rem;
+}
+.goods p {
+  width: 5.6rem;
+}
+.goods div:last-child {
+  margin-left: 0.26666667rem;
+}
+.goods div:last-child p span:nth-child(1) {
+  float: left;
+}
+.goods div:last-child p span:nth-child(2) {
+  float: right;
+}
+.goods div:last-child p:nth-child(2) {
+  font-size: 0.32rem;
+  line-height: 0.53333333rem;
+}
+.goods div:last-child p:last-child {
+  position: absolute;
+  bottom: 0.57333333rem;
+}
+.price {
+  color: #de2626;
+}
+.num {
+  font-size: 0.32rem;
+}
+.goods_dispatch {
+  background: #ffffff;
+  font-size: 0.4rem;
+  line-height: 0.88rem;
+}
+.goods_dispatch > div span:first-child {
+  float: left;
+}
+.goods_dispatch > div span:last-child {
+  float: right;
+}
+.goods_dispatch > div:nth-child(2) span {
+  float: right;
+  margin-bottom: 1.33333333rem;
+}
+.goods_dispatch > div:nth-child(3) span {
+  float: left;
+}
+.goods_dispatch > div:nth-child(4) span {
+  margin-bottom: 1.53333333rem;
+}
+.foot_count {
+  height: 1.01333333rem;
+  background: #ffffff;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+.foot_count div {
+  width: 5.46666667rem;
+  float: right;
+  line-height: 1.01333333rem;
+  text-align: center;
+}
+.foot_count span {
+  display: block;
+}
+.foot_count span:first-child {
+  float: left;
+  width: 3rem;
+}
+.foot_count span:last-child {
+  float: left;
+  width: 2.46666667rem;
+  background: #ff3545;
+  color: #ffffff;
+}
+.foot_count span:first-child i {
+  color: #de2626;
+}

@@ -1,0 +1,90 @@
+body {
+  font-size: 0.34666667rem;
+  font-family: '微软雅黑';
+  color: #777777;
+  background: #f1f1f1;
+}
+a {
+  color: #777777;
+}
+.wrap {
+  padding: 0 0.26666667rem;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  border-top: 1px solid #979797;
+  width: 100%;
+}
+.footer ul {
+  display: flex;
+}
+.footer li {
+  width: 25%;
+  text-align: center;
+}
+.footer li a {
+  display: block;
+  background: url("../img/tree.png") no-repeat center 0.26666667rem;
+  background-size: 0.69333333rem;
+  padding-top: 1.06666667rem;
+  padding-bottom: 0.2rem;
+}
+.footer li:first-child a {
+  background-image: url("../img/tree.png");
+}
+.footer li:nth-child(2) a {
+  background-image: url("../img/house.png");
+}
+.footer li:nth-child(3) a {
+  background-image: url("../img/private.png");
+}
+.footer li:last-child a {
+  background-image: url("../img/my.png");
+}
+.footer .footer-on a {
+  color: #43bf92;
+}
+.container {
+  position: absolute;
+  top: 0;
+  bottom: 1.73333333rem;
+  overflow: auto;
+}
+.header {
+  background: #43bf92;
+  color: white;
+  padding: 0 0.26666667rem;
+  position: relative;
+  height: 1.18666667rem;
+}
+.header a {
+  color: white;
+}
+.back {
+  float: left;
+}
+.back a {
+  display: block;
+  background: url("../img/back.png") no-repeat 0;
+  font-size: 0.4rem;
+  line-height: 1.18666667rem;
+  padding-left: 0.48rem;
+}
+.title {
+  float: left;
+  font-size: 0.48rem;
+  line-height: 1.18666667rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.my {
+  float: right;
+}
+.my a {
+  font-size: 0.4rem;
+  line-height: 1.18666667rem;
+  display: block;
+}

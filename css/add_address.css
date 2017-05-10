@@ -1,0 +1,35 @@
+.form {
+  padding: 0.46666667rem;
+}
+.form > div {
+  border-bottom: 1px solid #c9c9c9;
+}
+.form > div > span:first-child {
+  font-size: 0.4rem;
+  line-height: 1.33333333rem;
+  color: #343434;
+  padding-right: 0.53333333rem;
+}
+.form > div > div {
+  width: 7.33333333rem;
+  line-height: 1.33333333rem;
+  float: right;
+}
+.form > div > div span:first-child {
+  float: left;
+}
+.form > div > div span:last-child {
+  float: right;
+}
+.form > div input {
+  width: 6.66666667rem;
+  height: 0.66666667rem;
+  padding: 0.26666667rem 0;
+  font-size: 0.32rem;
+  color: #979797;
+  border: 0 none;
+  outline: 0 none;
+}
+.save_address {
+  margin: 0 auto;
+}
